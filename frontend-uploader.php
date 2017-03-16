@@ -673,7 +673,7 @@ class Frontend_Uploader {
 
 		$args = array(
 			'post_status' => array( 'private' ),
-			'posts_per_page' => 20,
+			'posts_per_page' => 9999,
 			'paged' => isset( $_GET['paged'] ) ? (int) $_GET['paged'] : 1,
 		);
 
